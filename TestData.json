@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "FistName": "Jon",
+      "LastName": "Snow",
+      "Email": "knowNothing@gmail.com",
+	  "Age": "30",
+	  "Salary": "3000",
+	  "Department": "alpha"
+    }
+  ]
+}

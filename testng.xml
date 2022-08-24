@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="ChromeBrowser">
+        <parameter name="BrowserName" value="Chrome"/>
+        <parameter name="fistName" value="Jon"/>
+        <parameter name="lastName" value="Snow"/>
+        <parameter name="email" value="knowNothing@gmail.com"/>
+        <parameter name="age" value="30"/>
+        <parameter name="salary" value="3000"/>
+        <parameter name="department" value="alpha"/>
+        <classes>
+            <class name="tests.testcases.TestCaseOne"/>
+            <class name="tests.testcases.TestCaseTwo"/>
+            <class name="tests.testcases.TestCaseThree"/>
+            <class name="tests.testcases.TestCaseFour"/>
+        </classes>
+    </test>
+    <test name="FirefoxBrowser">
+        <parameter name="BrowserName" value="Firefox"/>
+        <parameter name="fistName" value="Jon"/>
+        <parameter name="lastName" value="Snow"/>
+        <parameter name="lastName" value="Snow"/>
+        <parameter name="email" value="knowNothing@gmail.com"/>
+        <parameter name="age" value="30"/>
+        <parameter name="salary" value="3000"/>
+        <parameter name="department" value="alpha"/>
+        <classes>
+            <class name="tests.testcases.TestCaseOne"/>
+            <class name="tests.testcases.TestCaseTwo"/>
+            <class name="tests.testcases.TestCaseThree"/>
+            <class name="tests.testcases.TestCaseFour"/>
+        </classes>
+    </test>
+</suite>
